@@ -1,0 +1,522 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 32639 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Users/WillToPower/Desktop/StarGazer_XRHackathon
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63407
+Successfully changed project path to: D:/Users/WillToPower/Desktop/StarGazer_XRHackathon
+D:/Users/WillToPower/Desktop/StarGazer_XRHackathon
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 50.34 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.87 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/WillToPower/Desktop/StarGazer_XRHackathon/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   
+    VRAM:     5967 MB
+    Driver:   27.21.14.5671
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002469 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 45.45 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.779 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002287 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.66.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.3 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2326.
+Total: 1.931800 ms (FindLiveObjects: 0.204800 ms CreateObjectMapping: 0.061700 ms MarkObjects: 1.563400 ms  DeleteObjects: 0.101200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Stellar Sky/Demo/SS - Demo.unity
+  artifactKey: Guid(5afe7bf1fc58d7540a6f1f5233b53dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Demo/SS - Demo.unity using Guid(5afe7bf1fc58d7540a6f1f5233b53dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fcdcdad27e2c3db877ba97af49a8756') in 0.019461 seconds
+  Import took 0.022887 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002318 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 1834 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.7 MB.
+System memory in use after: 86.7 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2330.
+Total: 3.211800 ms (FindLiveObjects: 0.311700 ms CreateObjectMapping: 0.231900 ms MarkObjects: 2.596600 ms  DeleteObjects: 0.070000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 20.297308 seconds.
+  path: Assets/Stellar Sky/Demo/CameraController.cs
+  artifactKey: Guid(439aaf1c49ca90c47a4230fbb2674c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Demo/CameraController.cs using Guid(439aaf1c49ca90c47a4230fbb2674c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e812d310022fc340143cd75b2d3566c') in 0.046833 seconds
+  Import took 0.051622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.723992 seconds.
+  path: Assets/Stellar Sky/Demo/SS - DemoSettings.lighting
+  artifactKey: Guid(f3a74c5bb3f88314da969347121225a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Demo/SS - DemoSettings.lighting using Guid(f3a74c5bb3f88314da969347121225a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '764505c815d1e6c278423d927030b2d9') in 0.016442 seconds
+  Import took 0.020821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.816706 seconds.
+  path: Assets/Stellar Sky/Skyboxes/512/backImage.png
+  artifactKey: Guid(496855bce9d6f574786952b0580975fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/512/backImage.png using Guid(496855bce9d6f574786952b0580975fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd708c5eb7f6f16b5790a0c34752b1d0') in 0.066988 seconds
+  Import took 0.070515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Stellar Sky/Skyboxes/512/rightImage.png
+  artifactKey: Guid(31d44ad29adaf4343a74b96b5a41934e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/512/rightImage.png using Guid(31d44ad29adaf4343a74b96b5a41934e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd613dde1ca56636a701c7853ea622844') in 0.013654 seconds
+  Import took 0.016333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Stellar Sky/Skyboxes/512/leftImage.png
+  artifactKey: Guid(cb78b12e5b9acbd499d02e2d05c3ad88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/512/leftImage.png using Guid(cb78b12e5b9acbd499d02e2d05c3ad88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b0ba054565a7dbacb41064c5214baa') in 0.017469 seconds
+  Import took 0.020569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Stellar Sky/Skyboxes/512/upImage.png
+  artifactKey: Guid(7b59a0e3c00f7bc44a5adfd3845fd1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/512/upImage.png using Guid(7b59a0e3c00f7bc44a5adfd3845fd1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b3e39622e973ab37772c957d0615f8') in 0.012228 seconds
+  Import took 0.015017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Stellar Sky/Skyboxes/512/downImage.png
+  artifactKey: Guid(dc62ca3f2ea7e8748b4b859281b743ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/512/downImage.png using Guid(dc62ca3f2ea7e8748b4b859281b743ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1ce64b454a40a73ab33f4b2ffa1b55') in 0.013726 seconds
+  Import took 0.016681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Stellar Sky/Skyboxes/512/SS_512.mat
+  artifactKey: Guid(9c0e1084808ff1e4c9d5b4404052b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/512/SS_512.mat using Guid(9c0e1084808ff1e4c9d5b4404052b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c098108b4104d1023d7dc08017631e') in 0.215858 seconds
+  Import took 0.219025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Stellar Sky/Skyboxes/512/frontImage.png
+  artifactKey: Guid(085cccd885dc5124b981ea7b1bd1cd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/512/frontImage.png using Guid(085cccd885dc5124b981ea7b1bd1cd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1237a3ba40fe64dd1604959874b9aa4') in 0.012582 seconds
+  Import took 0.015275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.305141 seconds.
+  path: Assets/Stellar Sky/Skyboxes/1024/backImage.png
+  artifactKey: Guid(52cc617506df4c249b4d96ccda1ad386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/1024/backImage.png using Guid(52cc617506df4c249b4d96ccda1ad386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91319d965d86fd5dcc298aa32ce02a70') in 0.024652 seconds
+  Import took 0.028268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Stellar Sky/Skyboxes/1024/downImage.png
+  artifactKey: Guid(e864a9e2ab16edb4da48add2f8e3c17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/1024/downImage.png using Guid(e864a9e2ab16edb4da48add2f8e3c17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5937bd2215ef654e98fc19da360801') in 0.018862 seconds
+  Import took 0.021831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Stellar Sky/Skyboxes/1024/frontImage.png
+  artifactKey: Guid(1fbba7c16906b7f40a0ea43b141dc279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/1024/frontImage.png using Guid(1fbba7c16906b7f40a0ea43b141dc279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dabd225ffe38415e07fea1113055612') in 0.018487 seconds
+  Import took 0.022326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Stellar Sky/Skyboxes/1024/SS_1024.mat
+  artifactKey: Guid(36fd1cce0e97a4440b68d4fcc8be6cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/1024/SS_1024.mat using Guid(36fd1cce0e97a4440b68d4fcc8be6cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f45cfc7ff06a14069e5693e504e82a8') in 0.124897 seconds
+  Import took 0.128120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Stellar Sky/Skyboxes/1024/rightImage.png
+  artifactKey: Guid(f7f97bb342d60684392a521b093d99f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/1024/rightImage.png using Guid(f7f97bb342d60684392a521b093d99f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c575785452b20d8d3cbbd5d5fda8ff5a') in 0.018409 seconds
+  Import took 0.021719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Stellar Sky/Skyboxes/1024/leftImage.png
+  artifactKey: Guid(4e024ac57fa3cac408352b6143ccd651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/1024/leftImage.png using Guid(4e024ac57fa3cac408352b6143ccd651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868c4e12032c10c96c17e518a4aed339') in 0.018013 seconds
+  Import took 0.021030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Stellar Sky/Skyboxes/1024/upImage.png
+  artifactKey: Guid(90454034d0213284caa8b7908a628a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/1024/upImage.png using Guid(90454034d0213284caa8b7908a628a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7322e509d969c8e075d1c0bec584e3dd') in 0.017931 seconds
+  Import took 0.020834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.936456 seconds.
+  path: Assets/Stellar Sky/Skyboxes/2048/backImage.png
+  artifactKey: Guid(a7c2d32481230184187ce13bfeb37a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/2048/backImage.png using Guid(a7c2d32481230184187ce13bfeb37a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9792cdc25b9c3f23d036e9d8042eb225') in 0.081601 seconds
+  Import took 0.085078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Stellar Sky/Skyboxes/2048/downImage.png
+  artifactKey: Guid(8a0ff692cce26a844a5a2b79be9817ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/2048/downImage.png using Guid(8a0ff692cce26a844a5a2b79be9817ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de31712e7b974d8d3b5dcbbfeba30bd') in 0.048009 seconds
+  Import took 0.050763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Stellar Sky/Skyboxes/2048/frontImage.png
+  artifactKey: Guid(811ad48b91b606b469b801d87551684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/2048/frontImage.png using Guid(811ad48b91b606b469b801d87551684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567198151ddf13f54317117f6b37d183') in 0.045929 seconds
+  Import took 0.048425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Stellar Sky/Skyboxes/2048/rightImage.png
+  artifactKey: Guid(d420344f28725fb4b96b0d0980ba31bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/2048/rightImage.png using Guid(d420344f28725fb4b96b0d0980ba31bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3cd2b5588d3aa1f8167979ac3a3649') in 0.045327 seconds
+  Import took 0.047740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Stellar Sky/Skyboxes/2048/SS_2048.mat
+  artifactKey: Guid(c146daf0163687f47b4c34424b41c4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/2048/SS_2048.mat using Guid(c146daf0163687f47b4c34424b41c4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5ec67c49958fe9db04d6eaf5a80923') in 0.396963 seconds
+  Import took 0.400027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Stellar Sky/Skyboxes/2048/upImage.png
+  artifactKey: Guid(c1c39a7b1ae95054bae7859a0f19393f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/2048/upImage.png using Guid(c1c39a7b1ae95054bae7859a0f19393f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6760b570aad04ae397162a84175001e5') in 0.048906 seconds
+  Import took 0.051868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Stellar Sky/Skyboxes/2048/leftImage.png
+  artifactKey: Guid(96a3c2236a1c6974da595c10642abfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stellar Sky/Skyboxes/2048/leftImage.png using Guid(96a3c2236a1c6974da595c10642abfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb9e15bdc475380b3a5d68ae4ce315c') in 0.045917 seconds
+  Import took 0.048898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2283.115922 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777e927d0b238e2cde0f6869e17df74c') in 0.008821 seconds
+  Import took 0.012694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.058738 seconds.
+  path: Assets/Oculus/OculusProjectConfig.asset
+  artifactKey: Guid(677d9e3cec0cb03449a9615fdbf33d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/OculusProjectConfig.asset using Guid(677d9e3cec0cb03449a9615fdbf33d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71820eb726676034e232d045b4ab3c7') in 0.008525 seconds
+  Import took 0.011763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 573.876146 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay.unity
+  artifactKey: Guid(d31b44aac77e1684d861792b23d46a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay.unity using Guid(d31b44aac77e1684d861792b23d46a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d68ccc779068ccb967a0a0d4f9dedc1') in 0.007296 seconds
+  Import took 0.011771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay.unity
+  artifactKey: Guid(d31b44aac77e1684d861792b23d46a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay.unity using Guid(d31b44aac77e1684d861792b23d46a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d68ccc779068ccb967a0a0d4f9dedc1') in 0.002640 seconds
+  Import took 0.006060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.822244 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/MixedRealityCapture.unity
+  artifactKey: Guid(24872d3c3760f23498f41ecb019ea5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/MixedRealityCapture.unity using Guid(24872d3c3760f23498f41ecb019ea5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5abb86b5c4ad0af2875858ba349d78e') in 0.006223 seconds
+  Import took 0.010034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/MixedRealityCapture.unity
+  artifactKey: Guid(24872d3c3760f23498f41ecb019ea5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/MixedRealityCapture.unity using Guid(24872d3c3760f23498f41ecb019ea5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5abb86b5c4ad0af2875858ba349d78e') in 0.002970 seconds
+  Import took 0.007100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.637594 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion.unity
+  artifactKey: Guid(024cd9dcd49bd8f46a6bea03aa8a21bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion.unity using Guid(024cd9dcd49bd8f46a6bea03aa8a21bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c277c935ec2e00ed8d4b7a725640783') in 0.005854 seconds
+  Import took 0.008872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.797184 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsInteractionTrainScene.unity
+  artifactKey: Guid(a9c41884ef0c347628dfd8a4af4a022e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsInteractionTrainScene.unity using Guid(a9c41884ef0c347628dfd8a4af4a022e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425d51a5fdfb9da47fb26f4007c5160f') in 0.008122 seconds
+  Import took 0.012313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.568599 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/DistanceGrab.unity
+  artifactKey: Guid(24f58b3f0ca02d44eaec7f50bca538f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/DistanceGrab.unity using Guid(24f58b3f0ca02d44eaec7f50bca538f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066a5cfc9b90643d45d66c49433ca469') in 0.007683 seconds
+  Import took 0.011655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/DistanceGrab.unity
+  artifactKey: Guid(24f58b3f0ca02d44eaec7f50bca538f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/DistanceGrab.unity using Guid(24f58b3f0ca02d44eaec7f50bca538f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066a5cfc9b90643d45d66c49433ca469') in 0.002436 seconds
+  Import took 0.006367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.486551 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough.unity
+  artifactKey: Guid(58e5fc2486c774a4e88ac76261268d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough.unity using Guid(58e5fc2486c774a4e88ac76261268d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48df3bf02f678df1075b134d85c9f1a') in 0.006630 seconds
+  Import took 0.010079 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.71 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.1 MB.
+System memory in use after: 55.2 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2373.
+Total: 2.914700 ms (FindLiveObjects: 0.237500 ms CreateObjectMapping: 0.136200 ms MarkObjects: 2.468700 ms  DeleteObjects: 0.071500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2656.249573 seconds.
+  path: Assets/Oculus/Spatializer
+  artifactKey: Guid(7c71ffb0645478645a07a7abc5ada8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer using Guid(7c71ffb0645478645a07a7abc5ada8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46599cd5bf3bdc2c3ab53d6d08a2839') in 0.007419 seconds
+  Import took 0.011729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/Oculus/Spatializer
+  artifactKey: Guid(7c71ffb0645478645a07a7abc5ada8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer using Guid(7c71ffb0645478645a07a7abc5ada8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46599cd5bf3bdc2c3ab53d6d08a2839') in 0.002498 seconds
+  Import took 0.006111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.527636 seconds.
+  path: Assets/Oculus/SampleFramework
+  artifactKey: Guid(f316e69b3fd760d41b40450ec094df91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework using Guid(f316e69b3fd760d41b40450ec094df91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7f3827b60be731fc5baa314a19975a') in 0.007168 seconds
+  Import took 0.010920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Oculus/SampleFramework
+  artifactKey: Guid(f316e69b3fd760d41b40450ec094df91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework using Guid(f316e69b3fd760d41b40450ec094df91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7f3827b60be731fc5baa314a19975a') in 0.003849 seconds
+  Import took 0.007660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.164781 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Firebase.unity
+  artifactKey: Guid(954eda7bd02eb444ca928648702a2b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Firebase.unity using Guid(954eda7bd02eb444ca928648702a2b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19a1399162ca5decd68d9790db0254d') in 0.007597 seconds
+  Import took 0.011377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000807 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Firebase.unity
+  artifactKey: Guid(954eda7bd02eb444ca928648702a2b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Firebase.unity using Guid(954eda7bd02eb444ca928648702a2b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19a1399162ca5decd68d9790db0254d') in 0.002527 seconds
+  Import took 0.006242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.274409 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/CustomHands.unity
+  artifactKey: Guid(a4f984fcee593d2418cc61f4a993d46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/CustomHands.unity using Guid(a4f984fcee593d2418cc61f4a993d46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdd4b276f72d2c20aed882dd1545429') in 0.011974 seconds
+  Import took 0.017114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.667632 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/CustomControllers.unity
+  artifactKey: Guid(e0f49aa4174f98941b88699b5fecddc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/CustomControllers.unity using Guid(e0f49aa4174f98941b88699b5fecddc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cee4afc1484fc9867e17612d79597b') in 0.007568 seconds
+  Import took 0.011733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/CustomControllers.unity
+  artifactKey: Guid(e0f49aa4174f98941b88699b5fecddc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/CustomControllers.unity using Guid(e0f49aa4174f98941b88699b5fecddc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cee4afc1484fc9867e17612d79597b') in 0.002640 seconds
+  Import took 0.006211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12311.785430 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(116bb033f8e319a4a80352b888b51df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(116bb033f8e319a4a80352b888b51df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704b1a60df83886e61d3921c0c750b2e') in 0.013754 seconds
+  Import took 0.018213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(116bb033f8e319a4a80352b888b51df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(116bb033f8e319a4a80352b888b51df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704b1a60df83886e61d3921c0c750b2e') in 0.003007 seconds
+  Import took 0.005995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.068798 seconds.
+  path: Assets/Oculus/VR/Editor/AndroidManifest.OVRSubmission.xml
+  artifactKey: Guid(7a16cc136accf1f42bdc6f71f94b50ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Editor/AndroidManifest.OVRSubmission.xml using Guid(7a16cc136accf1f42bdc6f71f94b50ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8de9d7f6ddd7f60c0a8f5c6c6c2c0c6') in 0.011754 seconds
+  Import took 0.018781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.575179 seconds.
+  path: Assets/Oculus/VR/Editor/OVRManifestPreprocessor.cs
+  artifactKey: Guid(fb6426f323b7f024ebb25886b5182c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Editor/OVRManifestPreprocessor.cs using Guid(fb6426f323b7f024ebb25886b5182c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36994fef4cbd8a7f14f0087a3f3763fd') in 0.006368 seconds
+  Import took 0.009801 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.30 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.1 MB.
+System memory in use after: 55.2 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2373.
+Total: 2.930000 ms (FindLiveObjects: 0.200500 ms CreateObjectMapping: 0.058500 ms MarkObjects: 2.604100 ms  DeleteObjects: 0.066200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

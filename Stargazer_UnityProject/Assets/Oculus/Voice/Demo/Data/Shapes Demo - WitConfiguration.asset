@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: Shapes Demo - WitConfiguration
+  m_EditorClassIdentifier: 
+  application:
+    witConfiguration: {fileID: 0}
+    name: xr_hackathon
+    id: 397264408791747
+    lang: en
+    isPrivate: 0
+    createdAt: 2021-11-15T03:24:31-0800
+  configId: 4e21a24e472ab684e84db753427d5687
+  clientAccessToken: GXBVFDGOJWSANR73E37DCVVQLSSNNTAA
+  entities:
+  - witConfiguration: {fileID: 11400000}
+    id: 255501633218952
+    name: said_hello
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: hello
+      synonyms:
+      - hello
+  intents:
+  - witConfiguration: {fileID: 11400000}
+    id: 365823352006724
+    name: said_hello
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 4525381807576160
+      name: said_hello:said_hello
+      lookups: []
+      roles: []
+      keywords: []
+  traits:
+  - witConfiguration: {fileID: 11400000}
+    id: 5900cc2d-41b7-45b2-b21f-b950d3ae3c5c
+    name: wit$greetings
+    values: []

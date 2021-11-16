@@ -37,3 +37,6 @@ sysinfo.txt
 *.unitypackage
 
 Stargazer_UnityProject/Assets/3DModels/hazelwoodloft/
+Stargazer_UnityProject/Logs/
+*.log
+*.log

@@ -1467,6 +1467,53 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
   m_PrefabInstance: {fileID: 246759779}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1261859717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1261859719}
+  - component: {fileID: 1261859718}
+  m_Layer: 0
+  m_Name: StarMap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1261859718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261859717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e66d362ac302e6c409c1ccb4bf7785f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  starData: {fileID: 11400000, guid: 2123b269685b51544bace9e32aec9b9c, type: 2}
+  material: {fileID: 2100000, guid: 7f34dad3e25a6d946b47723a6c2862ce, type: 2}
+  distance: 100
+  cullBelowHorizon: 0
+--- !u!4 &1261859719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261859717}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.9113119, y: 1.502985, z: -5.5354443}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1285069861
 GameObject:
   m_ObjectHideFlags: 0
@@ -1953,6 +2000,10 @@ PrefabInstance:
     - target: {fileID: 527825916143908420, guid: 46c56df2b0a1ae3449bb95dda42316cb, type: 3}
       propertyPath: m_LocalPosition.z
       value: 9.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 527825916144257524, guid: 46c56df2b0a1ae3449bb95dda42316cb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 527825916279704830, guid: 46c56df2b0a1ae3449bb95dda42316cb, type: 3}
       propertyPath: m_LocalPosition.x

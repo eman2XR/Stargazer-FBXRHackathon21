@@ -8,25 +8,36 @@ public class CameraMove : MonoBehaviour
 
     void Update()
     {
-        if (OVRInput.Get(OVRInput.Button.PrimaryThumbstickUp) || OVRInput.Get(OVRInput.Button.SecondaryThumbstickUp))
+        if (OVRInput.Get(OVRInput.Button.PrimaryThumbstickUp))
         {
             targetPosition = Camera.main.transform.forward / 100;
             this.transform.position += new Vector3(targetPosition.x, 0, targetPosition.z);
         }
-        else if(OVRInput.Get(OVRInput.Button.PrimaryThumbstickDown) || OVRInput.Get(OVRInput.Button.SecondaryThumbstickDown))
+        else if(OVRInput.Get(OVRInput.Button.PrimaryThumbstickDown))
         {
             targetPosition = -(Camera.main.transform.forward / 100);
             this.transform.position += new Vector3(targetPosition.x, 0, targetPosition.z);
         }
-        else if(OVRInput.Get(OVRInput.Button.PrimaryThumbstickRight) || OVRInput.Get(OVRInput.Button.SecondaryThumbstickRight))
+        else if(OVRInput.Get(OVRInput.Button.PrimaryThumbstickRight))
         {
             targetPosition = (Camera.main.transform.right / 100);
             this.transform.position += new Vector3(targetPosition.x, 0, targetPosition.z);
         }
-        else if (OVRInput.Get(OVRInput.Button.PrimaryThumbstickLeft) || OVRInput.Get(OVRInput.Button.SecondaryThumbstickLeft))
+        else if (OVRInput.Get(OVRInput.Button.PrimaryThumbstickLeft) )
         {
             targetPosition = -(Camera.main.transform.right / 100);
             this.transform.position += new Vector3(targetPosition.x, 0, targetPosition.z);
+        }
+
+        else if (OVRInput.Get(OVRInput.Button.SecondaryThumbstickLeft))
+        {
+            targetPosition = -(Camera.main.transform.up / 100);
+            this.transform.position += new Vector3(0, targetPosition.y, 0);
+        }
+        else if (OVRInput.Get(OVRInput.Button.SecondaryThumbstickRight))
+        {
+            targetPosition = (Camera.main.transform.up / 100);
+            this.transform.position += new Vector3(0, targetPosition.y, 0);
         }
 
     }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace StarMap
 {
+    [ExecuteInEditMode]
     public class StarmapMeshRenderer : MonoBehaviour
     {
         public StarData starData;
@@ -143,6 +144,12 @@ namespace StarMap
             {
                 Vector3 v = stars[i].position.normalized * distance;
                 Vector3 dir = stars[i].position.normalized;
+
+                //create a sphere
+                GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                sphere.transform.position = v;
+                sphere.transform.localScale = new Vector3(stars[i].magnitude, stars[i].magnitude, stars[i].magnitude);
+                sphere.transform.parent = this.transform;
 
                 Vector3 up = Vector3.ProjectOnPlane(Vector3.up, dir).normalized;
                 Vector3 rt = Vector3.Cross(up, dir);

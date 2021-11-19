@@ -7,11 +7,16 @@ public class TestVoice : MonoBehaviour
 {
     public UnityEvent buttonPressed;
 
-    void Update()
+    //void Update()
+    //{
+    //    if(OVRInput.GetDown(OVRInput.Button.Any) || Input.GetKeyDown("l"))
+    //    {
+    //        buttonPressed.Invoke();
+    //    }
+    //}
+
+    public void ButtonPressed()
     {
-        if(OVRInput.GetDown(OVRInput.Button.Any) || Input.GetKeyDown("l"))
-        {
-            buttonPressed.Invoke();
-        }
+        buttonPressed.Invoke();
     }
 }

@@ -49,7 +49,7 @@ public class Pointer : MonoBehaviour {
             { crossImage.color = initialColor; reticle.transform.position = hit.point; }
             else crossImage.color = Color.clear;
 
-            if (hit.collider.gameObject.tag == "button" || hit.collider.gameObject.tag == "inspectionButton")
+            if (hit.collider.gameObject.tag == "sky")
             {
                 if (!busy)
                 {

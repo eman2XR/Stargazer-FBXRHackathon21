@@ -141,7 +141,14 @@ public class ObjectManipulator : MonoBehaviour
 
     void FindHoverObject(Vector3 controllerPos, Quaternion controllerRot)
     {
-        RaycastHit[] objectsHit = Physics.RaycastAll(controllerPos, controllerRot * Vector3.forward);
+        // Bit shift the index of the layer (7) to get a bit mask
+        int layerMask = 1 << LayerMask.NameToLayer("sky");
+
+        // This would cast rays only against colliders in layer 8.
+        // But instead we want to collide against everything except layer 8. The ~ operator does this, it inverts a bitmask.
+        layerMask = ~layerMask;
+
+        RaycastHit[] objectsHit = Physics.RaycastAll(controllerPos, controllerRot * Vector3.forward, Mathf.Infinity, layerMask);
         float closestObject = Mathf.Infinity;
         float rayDistance = 2.0f;
         bool showLaser = true;

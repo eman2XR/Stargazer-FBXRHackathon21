@@ -15,12 +15,12 @@ D:/Users/WillToPower/Desktop/Stargazer-XRHackathon/Stargazer_UnityProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55188
+57539
 Successfully changed project path to: D:/Users/WillToPower/Desktop/Stargazer-XRHackathon/Stargazer_UnityProject
 D:/Users/WillToPower/Desktop/Stargazer-XRHackathon/Stargazer_UnityProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 65.35 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.98 ms.
+Refreshing native plugins compatible for Editor in 88.55 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.86 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Users/WillToPower/Desktop/Stargazer-XRHackathon/Stargazer_UnityProject/Assets
@@ -37,29 +37,29 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002259 seconds.
+Registered in 0.002835 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 54.80 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
+Refreshing native plugins compatible for Editor in 69.44 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.730 seconds
+- Completed reload, in  2.619 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003848 seconds.
+Registered in 0.004898 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -69,79 +69,660 @@ RoslynAnalysisRunner has terminated.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.66.0
 Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
+- Completed reload, in  1.154 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
 Unloading 2114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 111.8 MB.
-System memory in use after: 110.9 MB.
+System memory in use before: 111.9 MB.
+System memory in use after: 111.0 MB.
 
 Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2526.
-Total: 2.964300 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.154600 ms MarkObjects: 1.755200 ms  DeleteObjects: 0.759800 ms)
+Total: 7.371400 ms (FindLiveObjects: 1.883500 ms CreateObjectMapping: 0.293400 ms MarkObjects: 3.509800 ms  DeleteObjects: 1.683100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/MAIN.unity
-  artifactKey: Guid(badd94b5f2a5d9a499817e6e9541c760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MAIN.unity using Guid(badd94b5f2a5d9a499817e6e9541c760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc1ffb3eff06d1bec4d1547b9be793e') in 0.017220 seconds
-  Import took 0.020923 seconds .
+  path: Assets/Particles & Vfx/Mirza Beig/Particle Systems/Ultimate VFX/Materials/Particles/Sprites/mat_vfx-ult_particle_sprite_point-add-[1.0].mat
+  artifactKey: Guid(d8d1e5fa6afc8774e8b15b4d64c4bb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles & Vfx/Mirza Beig/Particle Systems/Ultimate VFX/Materials/Particles/Sprites/mat_vfx-ult_particle_sprite_point-add-[1.0].mat using Guid(d8d1e5fa6afc8774e8b15b4d64c4bb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e446f5e2878d4e074afce93031c6ba') in 0.134100 seconds
+  Import took 0.139089 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 9.12 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.9 MB.
+System memory in use after: 68.0 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2566.
+Total: 4.545200 ms (FindLiveObjects: 0.619100 ms CreateObjectMapping: 0.289900 ms MarkObjects: 2.842500 ms  DeleteObjects: 0.792200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 108.915451 seconds.
-  path: Assets/Particles & Vfx/Mirza Beig/Particle Systems/Ultimate VFX/Expansions/XP - TITLES/Prefabs/Titles Mouse Follow.prefab
-  artifactKey: Guid(90c1c6d928fc4c0429fd82a95f2c38b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particles & Vfx/Mirza Beig/Particle Systems/Ultimate VFX/Expansions/XP - TITLES/Prefabs/Titles Mouse Follow.prefab using Guid(90c1c6d928fc4c0429fd82a95f2c38b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff9bfcc1f0e86fd5fcc992b97de0d17') in 0.043617 seconds
-  Import took 0.047949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 293.551808 seconds.
-  path: Assets/Particles & Vfx/Mirza Beig/Particle Systems/Ultimate VFX/Materials/Particles/Sprites/mat_vfx-ult_particle_sprite_shard2-add-[1.0].mat
-  artifactKey: Guid(3060b1d9a3f58614483137ea473a56e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particles & Vfx/Mirza Beig/Particle Systems/Ultimate VFX/Materials/Particles/Sprites/mat_vfx-ult_particle_sprite_shard2-add-[1.0].mat using Guid(3060b1d9a3f58614483137ea473a56e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fcd1643b13eb7c7cd4881102fd141fd') in 0.120642 seconds
-  Import took 0.125508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.534146 seconds.
-  path: Assets/Particles & Vfx/Mirza Beig/Particle Systems/Ultimate VFX/Materials/Particles/Sprites/mat_vfx-ult_particle_sprite_shard-add-[1.0].mat
-  artifactKey: Guid(e51f9144e55b74145a00c6efbea5130a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particles & Vfx/Mirza Beig/Particle Systems/Ultimate VFX/Materials/Particles/Sprites/mat_vfx-ult_particle_sprite_shard-add-[1.0].mat using Guid(e51f9144e55b74145a00c6efbea5130a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b44e81decbb7c756674a050155b28d') in 0.033869 seconds
-  Import took 0.037819 seconds .
+  Time since last request: 150.496303 seconds.
+  path: Assets/Materials/mask.mat
+  artifactKey: Guid(db500cce5e05ea8428e4db417169114d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/mask.mat using Guid(db500cce5e05ea8428e4db417169114d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fa19aa953a6dc1f894c2d3a9512467') in 0.019371 seconds
+  Import took 0.023535 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.236929 seconds.
+Registered in 0.003828 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.885 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.1 MB.
+System memory in use after: 105.3 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2570.
+Total: 3.345200 ms (FindLiveObjects: 0.256400 ms CreateObjectMapping: 0.138600 ms MarkObjects: 2.179600 ms  DeleteObjects: 0.769200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 354.040005 seconds.
+  path: Assets/Scripts/HandsManager.cs
+  artifactKey: Guid(8a4c6ff350e377b4eb37084613df1fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HandsManager.cs using Guid(8a4c6ff350e377b4eb37084613df1fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75992bd0ac45c8751e43d0d1d9c529d1') in 0.021727 seconds
+  Import took 0.028636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/Scripts/HandsManager.cs
+  artifactKey: Guid(8a4c6ff350e377b4eb37084613df1fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HandsManager.cs using Guid(8a4c6ff350e377b4eb37084613df1fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75992bd0ac45c8751e43d0d1d9c529d1') in 0.002922 seconds
+  Import took 0.010683 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003824 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.858 seconds
+- Completed reload, in  1.249 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.0 MB.
-System memory in use after: 105.1 MB.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.2 MB.
+System memory in use after: 105.3 MB.
 
-Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2570.
-Total: 2.682100 ms (FindLiveObjects: 0.213900 ms CreateObjectMapping: 0.066600 ms MarkObjects: 1.686300 ms  DeleteObjects: 0.714500 ms)
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2575.
+Total: 3.044500 ms (FindLiveObjects: 0.428100 ms CreateObjectMapping: 0.176800 ms MarkObjects: 1.588500 ms  DeleteObjects: 0.849800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.868 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.2 MB.
+System memory in use after: 105.4 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2579.
+Total: 3.559100 ms (FindLiveObjects: 0.314800 ms CreateObjectMapping: 0.312000 ms MarkObjects: 2.026000 ms  DeleteObjects: 0.905000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 101.906415 seconds.
+  path: Assets/Scripts/HandsManager.cs
+  artifactKey: Guid(8a4c6ff350e377b4eb37084613df1fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HandsManager.cs using Guid(8a4c6ff350e377b4eb37084613df1fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38727263a1837598a3dd58fed7627035') in 0.005133 seconds
+  Import took 0.008925 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003779 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.3 MB.
+System memory in use after: 105.4 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2583.
+Total: 2.988300 ms (FindLiveObjects: 0.203100 ms CreateObjectMapping: 0.068600 ms MarkObjects: 1.856000 ms  DeleteObjects: 0.859700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.045 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.2 MB.
+System memory in use after: 105.3 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2587.
+Total: 4.066000 ms (FindLiveObjects: 0.422800 ms CreateObjectMapping: 0.151900 ms MarkObjects: 2.353100 ms  DeleteObjects: 1.136400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004312 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.42 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.261 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.3 MB.
+System memory in use after: 105.4 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2591.
+Total: 4.542700 ms (FindLiveObjects: 0.520900 ms CreateObjectMapping: 0.223500 ms MarkObjects: 2.625100 ms  DeleteObjects: 1.171000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 9.31 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.0 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2591.
+Total: 3.785800 ms (FindLiveObjects: 0.360400 ms CreateObjectMapping: 0.075400 ms MarkObjects: 2.282400 ms  DeleteObjects: 1.066200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004332 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.3 MB.
+System memory in use after: 105.4 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2595.
+Total: 3.229800 ms (FindLiveObjects: 0.223900 ms CreateObjectMapping: 0.068400 ms MarkObjects: 1.964300 ms  DeleteObjects: 0.971900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 7.85 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.1 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2595.
+Total: 3.863100 ms (FindLiveObjects: 0.494800 ms CreateObjectMapping: 0.111400 ms MarkObjects: 2.006700 ms  DeleteObjects: 1.247800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3767.572666 seconds.
+  path: Assets/Materials/grey.mat
+  artifactKey: Guid(8164e48f39cedc441b20590550bc942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/grey.mat using Guid(8164e48f39cedc441b20590550bc942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d903e88f5ff3ba0fe842661f48e9f7b') in 0.063313 seconds
+  Import took 0.067615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.456299 seconds.
+  path: Assets/Pixelplacement/OculusQuest/Textures/Arrow.psd
+  artifactKey: Guid(98816577bcbd2334ba6b36e8b64b7b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelplacement/OculusQuest/Textures/Arrow.psd using Guid(98816577bcbd2334ba6b36e8b64b7b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4b4b75c20a2903f47da27a83cba71a') in 0.097588 seconds
+  Import took 0.102447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Scripts/Gaze pointer/Gaze pointer/Textures/cross reticle.png
+  artifactKey: Guid(9f5f3219876d8c3498f887a5b2d2ffad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gaze pointer/Gaze pointer/Textures/cross reticle.png using Guid(9f5f3219876d8c3498f887a5b2d2ffad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecd70ad5202600de2dd7275c286bf6a') in 0.094478 seconds
+  Import took 0.098446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Pixelplacement/OculusQuest/Textures/Arrow.psd
+  artifactKey: Guid(98816577bcbd2334ba6b36e8b64b7b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelplacement/OculusQuest/Textures/Arrow.psd using Guid(98816577bcbd2334ba6b36e8b64b7b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4b4b75c20a2903f47da27a83cba71a') in 0.010780 seconds
+  Import took 0.015157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Pixelplacement/OculusQuest/Textures/Disc.psd
+  artifactKey: Guid(b9bd767ea07d607429a14f667256495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelplacement/OculusQuest/Textures/Disc.psd using Guid(b9bd767ea07d607429a14f667256495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a7a4d70e9e6f32d670ab05131bb0a8') in 0.021103 seconds
+  Import took 0.026585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Scripts/Gaze pointer/Gaze pointer/Textures/circle reticle.png
+  artifactKey: Guid(9b7acb308b8a24f48bcd69d240523f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gaze pointer/Gaze pointer/Textures/circle reticle.png using Guid(9b7acb308b8a24f48bcd69d240523f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4372112d18ae9b70782f43b85a25de') in 0.056157 seconds
+  Import took 0.061317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Scripts/Gaze pointer/Gaze pointer/Textures/circle reticle.png
+  artifactKey: Guid(9b7acb308b8a24f48bcd69d240523f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gaze pointer/Gaze pointer/Textures/circle reticle.png using Guid(9b7acb308b8a24f48bcd69d240523f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4372112d18ae9b70782f43b85a25de') in 0.014185 seconds
+  Import took 0.018842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.401651 seconds.
+  path: Assets/Materials/grey 1.mat
+  artifactKey: Guid(3d0fcc6f0bbfae94a80c932b8ef648a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/grey 1.mat using Guid(3d0fcc6f0bbfae94a80c932b8ef648a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f172dcb6cf85893c3100cd19920478') in 0.068322 seconds
+  Import took 0.081889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.223857 seconds.
+  path: Assets/Materials/grey 1.mat
+  artifactKey: Guid(3d0fcc6f0bbfae94a80c932b8ef648a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/grey 1.mat using Guid(3d0fcc6f0bbfae94a80c932b8ef648a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51eafe371e835794d6ab2a6bae754fa8') in 0.026665 seconds
+  Import took 0.030476 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003933 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.000 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.3 MB.
+System memory in use after: 105.4 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2604.
+Total: 2.889600 ms (FindLiveObjects: 0.294700 ms CreateObjectMapping: 0.106800 ms MarkObjects: 1.604800 ms  DeleteObjects: 0.882400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 522.604982 seconds.
+  path: Assets/Scripts/Cube (9).controller
+  artifactKey: Guid(2db3398f1cc68874fa07cf1c7540ee4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cube (9).controller using Guid(2db3398f1cc68874fa07cf1c7540ee4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8f2cb02e26902afeafbdca6a9b9541') in 0.026261 seconds
+  Import took 0.031109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.213593 seconds.
+  path: Assets/Scripts/Cube (8).controller
+  artifactKey: Guid(2fa242a93670f3045ba1bcf0f13b3bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cube (8).controller using Guid(2fa242a93670f3045ba1bcf0f13b3bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603a551c7f21646f78b8bf3f96112925') in 0.007167 seconds
+  Import took 0.011437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.640189 seconds.
+  path: Assets/Scripts/New Animation.anim
+  artifactKey: Guid(5da2ebb277605f74e9b19cb9446a9bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/New Animation.anim using Guid(5da2ebb277605f74e9b19cb9446a9bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235bdbfe1fae5df0597c7c6794d9c075') in 0.008585 seconds
+  Import took 0.012453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Scripts/New Animation.anim
+  artifactKey: Guid(5da2ebb277605f74e9b19cb9446a9bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/New Animation.anim using Guid(5da2ebb277605f74e9b19cb9446a9bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235bdbfe1fae5df0597c7c6794d9c075') in 0.002892 seconds
+  Import took 0.007626 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.999 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.3 MB.
+System memory in use after: 105.5 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2608.
+Total: 3.391300 ms (FindLiveObjects: 0.320100 ms CreateObjectMapping: 0.176000 ms MarkObjects: 1.897700 ms  DeleteObjects: 0.995700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 7.667108 seconds.
+  path: Assets/Scripts/test anim.anim
+  artifactKey: Guid(7e87bc3f664071a41ba615c1d27fc373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/test anim.anim using Guid(7e87bc3f664071a41ba615c1d27fc373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047004bd52cd720d2533e926de75148b') in 0.016866 seconds
+  Import took 0.020740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121018 seconds.
+  path: Assets/Scripts/test anim.anim
+  artifactKey: Guid(7e87bc3f664071a41ba615c1d27fc373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/test anim.anim using Guid(7e87bc3f664071a41ba615c1d27fc373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f462e37bd54bf5193214faecf71b71f') in 0.003012 seconds
+  Import took 0.007517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Scripts/test anim.anim
+  artifactKey: Guid(7e87bc3f664071a41ba615c1d27fc373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/test anim.anim using Guid(7e87bc3f664071a41ba615c1d27fc373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f462e37bd54bf5193214faecf71b71f') in 0.004242 seconds
+  Import took 0.008512 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004042 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 2010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.3 MB.
+System memory in use after: 105.4 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2613.
+Total: 3.653400 ms (FindLiveObjects: 0.562300 ms CreateObjectMapping: 0.299100 ms MarkObjects: 1.782800 ms  DeleteObjects: 1.007600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 374.413722 seconds.
+  path: Assets/Scripts/OnTriggerEvents.cs
+  artifactKey: Guid(f06291dec5ed83446976a370e091ceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OnTriggerEvents.cs using Guid(f06291dec5ed83446976a370e091ceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0236898f4cfbba3cad182272fb04c2e1') in 0.010576 seconds
+  Import took 0.057365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.094955 seconds.
+  path: Assets/Scripts/RoomMapperExtention.cs
+  artifactKey: Guid(ac364177f0d8cae458c515d220ff2c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomMapperExtention.cs using Guid(ac364177f0d8cae458c515d220ff2c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731848e15c82f0a7d5963712cce2318a') in 0.006236 seconds
+  Import took 0.010294 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.821 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.4 MB.
+System memory in use after: 105.5 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2617.
+Total: 3.386700 ms (FindLiveObjects: 0.231000 ms CreateObjectMapping: 0.081600 ms MarkObjects: 1.965000 ms  DeleteObjects: 1.107700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005645 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.00 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.606 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.4 MB.
+System memory in use after: 105.5 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2621.
+Total: 3.516900 ms (FindLiveObjects: 0.229600 ms CreateObjectMapping: 0.080200 ms MarkObjects: 2.156500 ms  DeleteObjects: 1.049200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 7.66 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 68.3 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2621.
+Total: 3.082900 ms (FindLiveObjects: 0.363700 ms CreateObjectMapping: 0.067300 ms MarkObjects: 1.742000 ms  DeleteObjects: 0.908900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004537 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.237 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.4 MB.
+System memory in use after: 105.5 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2625.
+Total: 3.082000 ms (FindLiveObjects: 0.206600 ms CreateObjectMapping: 0.068200 ms MarkObjects: 1.794200 ms  DeleteObjects: 1.011700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004119 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.088 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 2010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.4 MB.
+System memory in use after: 105.6 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2629.
+Total: 3.889500 ms (FindLiveObjects: 0.575700 ms CreateObjectMapping: 0.320100 ms MarkObjects: 1.776400 ms  DeleteObjects: 1.215100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
@@ -152,200 +733,76 @@ Registered in 0.004128 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.766 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.1 MB.
-System memory in use after: 105.2 MB.
-
-Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2574.
-Total: 3.451600 ms (FindLiveObjects: 0.419400 ms CreateObjectMapping: 0.194000 ms MarkObjects: 2.002300 ms  DeleteObjects: 0.834700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004379 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.88 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.085 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.2 MB.
-System memory in use after: 105.3 MB.
-
-Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2578.
-Total: 4.894200 ms (FindLiveObjects: 0.655300 ms CreateObjectMapping: 0.278100 ms MarkObjects: 2.778300 ms  DeleteObjects: 1.181000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004855 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.001 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.2 MB.
-System memory in use after: 105.3 MB.
-
-Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2582.
-Total: 5.042100 ms (FindLiveObjects: 0.437200 ms CreateObjectMapping: 0.142300 ms MarkObjects: 2.486400 ms  DeleteObjects: 1.974100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
-Refreshing native plugins compatible for Editor in 7.77 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.0 MB.
-System memory in use after: 68.1 MB.
-
-Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2582.
-Total: 3.331700 ms (FindLiveObjects: 0.294900 ms CreateObjectMapping: 0.142000 ms MarkObjects: 1.987700 ms  DeleteObjects: 0.905900 ms)
-
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
-Refreshing native plugins compatible for Editor in 7.68 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.0 MB.
-System memory in use after: 68.1 MB.
-
-Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2582.
-Total: 3.649800 ms (FindLiveObjects: 0.250300 ms CreateObjectMapping: 0.079200 ms MarkObjects: 2.371700 ms  DeleteObjects: 0.947200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003991 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.831 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.2 MB.
-System memory in use after: 105.3 MB.
-
-Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2586.
-Total: 3.131000 ms (FindLiveObjects: 0.228800 ms CreateObjectMapping: 0.066400 ms MarkObjects: 1.933000 ms  DeleteObjects: 0.901700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 1682.702506 seconds.
-  path: Assets/UI/mic.png
-  artifactKey: Guid(eab27571ed2efeb449f55c5ff52ebc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/mic.png using Guid(eab27571ed2efeb449f55c5ff52ebc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2561da4416e2010cc4f15bfad09fe607') in 0.062122 seconds
-  Import took 0.065971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.696392 seconds.
-  path: Assets/UI/mic.png
-  artifactKey: Guid(eab27571ed2efeb449f55c5ff52ebc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/mic.png using Guid(eab27571ed2efeb449f55c5ff52ebc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1b12e9a39db18df014a4c031888dca') in 0.027794 seconds
-  Import took 0.032082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.164753 seconds.
-  path: Assets/UI/E9EW3LwXoAcVP3y.png
-  artifactKey: Guid(aa53f1df142f96240aea7d03a488d686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/E9EW3LwXoAcVP3y.png using Guid(aa53f1df142f96240aea7d03a488d686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72809dea3ea81881cd2f486052e110f3') in 0.014525 seconds
-  Import took 0.019028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.735443 seconds.
-  path: Assets/UI/E9EW3LwXoAcVP3y.png
-  artifactKey: Guid(aa53f1df142f96240aea7d03a488d686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/E9EW3LwXoAcVP3y.png using Guid(aa53f1df142f96240aea7d03a488d686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbeaf0aaa42f3dc259e1863b36caa58') in 0.021436 seconds
-  Import took 0.025576 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004294 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.923 seconds
+- Completed reload, in  1.003 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.57 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.2 MB.
-System memory in use after: 105.4 MB.
+Unloading 2010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.3 MB.
+System memory in use after: 105.5 MB.
 
-Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2596.
-Total: 3.644900 ms (FindLiveObjects: 0.320100 ms CreateObjectMapping: 0.189400 ms MarkObjects: 2.104400 ms  DeleteObjects: 1.029500 ms)
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2633.
+Total: 3.580800 ms (FindLiveObjects: 0.307300 ms CreateObjectMapping: 0.169800 ms MarkObjects: 1.998400 ms  DeleteObjects: 1.104000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 10.18 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.1 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2633.
+Total: 3.675200 ms (FindLiveObjects: 0.408700 ms CreateObjectMapping: 0.097500 ms MarkObjects: 2.044500 ms  DeleteObjects: 1.123000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004204 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.169 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'AngryBots/PlanarRealtimeReflection': fallback shader 'AngryBots/Fallback' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 2011 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.5 MB.
+System memory in use after: 105.6 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2638.
+Total: 3.040400 ms (FindLiveObjects: 0.277700 ms CreateObjectMapping: 0.142400 ms MarkObjects: 1.576900 ms  DeleteObjects: 1.042200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 2408.580061 seconds.
+  path: Assets/Scripts/MicButton.cs
+  artifactKey: Guid(219767ab28b9cd24fb89519e6e0aa2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MicButton.cs using Guid(219767ab28b9cd24fb89519e6e0aa2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60dbf15f9894a6830397fa39d9521203') in 0.009190 seconds
+  Import took 0.013003 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -10,7 +10,7 @@ public class StarMapManager : MonoBehaviour
         yield return new WaitForSeconds(1);
         //get time of day and compass orientationrotate star sphere accordingly
         //for now just rotate manually 
-        this.transform.eulerAngles = new Vector3(90, 0, -66);
+        this.transform.eulerAngles = new Vector3(106, 0, -66);
     }
 
 }

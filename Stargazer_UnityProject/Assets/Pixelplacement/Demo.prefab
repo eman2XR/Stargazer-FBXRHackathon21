@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!65 &7866333153640842072
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7055941610464951820}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.25402522, y: 0.25402525, z: 0.03813739}
+  m_Center: {x: 0, y: 0.12700002, z: 0.0000000055879354}
+--- !u!64 &7866333152344177804
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7055941611180999104}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5740841116187667764, guid: c98c7d6dbd967484fa35e59c17dfa350, type: 3}
 --- !u!1 &7866333152267049592
 GameObject:
   m_ObjectHideFlags: 0
@@ -47,20 +74,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 0.35
   delay: 0
---- !u!64 &7866333152344177804
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7055941611180999104}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5740841116187667764, guid: c98c7d6dbd967484fa35e59c17dfa350, type: 3}
 --- !u!1 &7866333152747239927
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,19 +575,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e952ed138af18294daf2ba16a5fd3461, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &7866333153640842072
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7055941610464951820}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.25402522, y: 0.25402525, z: 0.03813739}
-  m_Center: {x: 0, y: 0.12700002, z: 0.0000000055879354}
 --- !u!1 &7866333153690124219
 GameObject:
   m_ObjectHideFlags: 0

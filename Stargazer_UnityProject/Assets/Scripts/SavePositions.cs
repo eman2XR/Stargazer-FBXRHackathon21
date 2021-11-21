@@ -11,11 +11,11 @@ public class SavePositions : MonoBehaviour
            if(PlayerPrefs.HasKey(trans.name + "x"))
             {
                 Vector3 savePos = new Vector3(PlayerPrefs.GetFloat(trans.name + "x"), PlayerPrefs.GetFloat(trans.name + "y"), PlayerPrefs.GetFloat(trans.name + "z"));
-                trans.position = savePos;
+                //trans.position = savePos;
             }
         }
 
-        InvokeRepeating("SavePositionsOfWalls", 10, 5);
+        //InvokeRepeating("SavePositionsOfWalls", 10, 5);
     }
     void SavePositionsOfWalls()
     {

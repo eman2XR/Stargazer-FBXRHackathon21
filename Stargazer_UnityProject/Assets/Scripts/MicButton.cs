@@ -9,6 +9,17 @@ public class MicButton : MonoBehaviour
     public GameObject micOnVisual;
     public GameObject micOffVisual;
     public UnityEvent onMicOn;
+    public Transform head;
+    public float distanceToActivate;
+
+    private void Update()
+    {
+        if(Vector3.Distance(transform.position, head.position) < distanceToActivate)
+        {
+            if (!isOn)
+                TurnMicOn();
+        }
+    }
 
     public void ToggleMic()
     {
@@ -29,6 +40,7 @@ public class MicButton : MonoBehaviour
 
     public void TurnMicOn()
     {
+        isOn = true;
         onMicOn.Invoke();
         micOnVisual.SetActive(true);
         micOffVisual.SetActive(false);
@@ -36,6 +48,7 @@ public class MicButton : MonoBehaviour
 
     public void TurnMicOff()
     {
+        isOn = false;
         micOnVisual.SetActive(false);
         micOffVisual.SetActive(true);
     }
